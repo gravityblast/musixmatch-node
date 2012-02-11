@@ -4,7 +4,7 @@
   "description": "musiXmatch API library for nodejs",
   "version": "0.1.0",
   "repository": {
-    "url": ""
+    "url": "https://github.com/pilu/musixmatch-node"
   },
   "main": "./lib/index.js",
   "engines": {

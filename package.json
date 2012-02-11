@@ -1,0 +1,15 @@
+{
+  "author": "Andrea Franz <andrea@gravityblast.com> (http://gravityblast.com)",
+  "name": "musixmatch",
+  "description": "musiXmatch API library for nodejs",
+  "version": "0.1.0",
+  "repository": {
+    "url": ""
+  },
+  "main": "./lib/index.js",
+  "engines": {
+    "node": "~v0.4.7"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

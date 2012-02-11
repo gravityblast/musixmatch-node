@@ -1,9 +1,13 @@
 # musiXmatch API library for NodeJS
 
+## Installation
+
+    npm install -g musixmatch
+
 ## Examples
 
     var util  = require("util");
-    var mXm   = require("./lib/mXm");
+    var mXm   = require("musixmatch");
     
     mXm.Config.API_KEY = "YOUR_API_KEY";
 
@@ -16,7 +20,6 @@
       console.log("Error callback:");
       console.log("  " + util.inspect(response));
     };
-
 
     mXm.API.getTrack(TRACK_ID, successCallback, errorCallback);
     mXm.API.getLyrics(LYRICS_ID, successCallback, errorCallback);

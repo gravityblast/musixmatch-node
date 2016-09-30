@@ -1,9 +1,5 @@
 # musiXmatch API library for NodeJS
 
-## Installation
-
-    npm install -g musixmatch
-
 ## Examples
 
     var util  = require("util");
